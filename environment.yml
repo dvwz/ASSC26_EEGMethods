@@ -1,4 +1,4 @@
-name: NESSTutorial2023 
+name: ASSC26
 channels:
 - defaults
 - conda-forge
@@ -18,4 +18,4 @@ dependencies:
      - spectral_connectivity
      - somata
      - git+https://github.com/Eden-Kramer-Lab/Common_Oscillator_Models.git@python
- 
+
