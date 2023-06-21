@@ -3,12 +3,7 @@
 This repository hosts materials for the "A practical guide to EEG analysis tools used in the neuroscience of consciousness and cognition" tutorial, for [ASSC26](https://theassc.org/assc-26/#tutorials).
 
 The slides for the course are below:
-
-[Intro](https://docs.google.com/presentation/d/1X7yLfVzOVmVLF_CH6Phm_tp9EJp2D_Q4st-tBgOjoY8/edit?usp=sharing)
-
-[Synchrony](https://docs.google.com/presentation/d/1NUFq5qjLdXKk3nqVy6pAoQ2IAdzKaC3PZqalbEzcrqg/edit?usp=sharing)
-
-[NESS2023](https://docs.google.com/presentation/d/1WpJl8nP0swUqbdUwYPvmXec1HPUf0hXI2juuXgZ0AU0/edit?usp=sharing)
+(links will be added after the session)
 
 ## Overview
 
