@@ -41,7 +41,7 @@ The hands-on materials are organized as follows:
 
 ## Software Environment
 
-The materials in this tutorial require the Python programming language, as well as Jupyter notebooks. Participants will need a working install of Python (>=3.6), with standard scientific packages (numpy, scipy, matplotlib), as well as some neuroscience specific modules.
+Part of the materials in this tutorial require the Python programming language, as well as Jupyter notebooks. Participants will need a working install of Python (>=3.6), with standard scientific packages (numpy, scipy, matplotlib), as well as some neuroscience specific modules.
 
 To assist with getting an environment setup, we have provided an environment file which can be initialized as:
 
@@ -52,6 +52,8 @@ To assist with getting an environment setup, we have provided an environment fil
     > jupyter lab
 
 The above assumes you have the [conda](https://docs.conda.io/en/latest/) package manager, which can be downloaded as part of the [Anaconda distribution](https://www.anaconda.com/download).
+
+Some of the tutorial requires a version of MATLAB compatible with .mlx files.
 
 ## Additional References
 
