@@ -1,0 +1,54 @@
+function angmat = angdist(eigvecs_a,eigvecs_b,modes)
+% ANGDIST Computes pairwise angular distances between eigenvectors.
+%
+% Usage:
+%    angmat = angdist(eigvecs)
+%    angmat = angdist(eigvecs, modes)
+%
+% Inputs:
+%    eigvecs - A 3-D matrix with eigenvectors as columns in the first two dimensions.
+%              The third dimension represents different measurements (Nchans x Nchans x Nmw...).
+%    modes   - (Optional) Specifies the modes (columns) to use for computation.
+%              Defaults to the first column if not provided.
+%
+% Outputs:
+%    angmat  - A symmetric matrix of angular distances, where the entry (i, j) is the angular 
+%              distance between the i-th and j-th eigenvectors.
+%
+% This function computes the pairwise angular distances between the columns of the 'eigvecs'
+% matrix. The angular distance is computed as the principal angle between two subspaces spanned
+% by the eigenvectors, using the MATLAB 'subspace' function.
+%
+% If 'modes' is not provided, the function uses the first column of 'eigvecs' by default.
+%
+% Example:
+%    eigenvectors = gcohout.eigenvectors_l;  % Generate some random eigenvectors
+%    angMatrix = angdist(eigenvectors, [1, 2]);  % Compute angular distances for the first two modes
+%
+% See also: SUBSPACE
+
+if ~exist('modes','var') || isempty(modes)
+    modes = 1;
+end
+
+if size(eigvecs_a
+
+n_eigvecs = size(eigvecs,3); % 
+eigvecs = eigvecs(:,modes,:);
+
+angmat = zeros(n_eigvecs,n_eigvecs,n_boot);
+
+for i = 1:n_eigvecs
+    for j = 1:n_eigvecs
+        
+        if i < j
+            angmat(i,j) = subspace(eigvecs(:,:,i),eigvecs(:,:,j));
+        end
+    
+    end
+end
+
+angmat = angmat' + angmat;
+
+end
+
