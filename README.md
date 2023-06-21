@@ -2,8 +2,10 @@
 
 This repository hosts materials for the "A practical guide to EEG analysis tools used in the neuroscience of consciousness and cognition" tutorial, for [ASSC26](https://theassc.org/assc-26/#tutorials).
 
-The slides for the course are
-[here](https://docs.google.com/presentation/d/1WpJl8nP0swUqbdUwYPvmXec1HPUf0hXI2juuXgZ0AU0/edit?usp=sharing).
+The slides for the course are below:
+[Intro](https://docs.google.com/presentation/d/1X7yLfVzOVmVLF_CH6Phm_tp9EJp2D_Q4st-tBgOjoY8/edit?usp=sharing)
+[Synchrony](https://docs.google.com/presentation/d/1NUFq5qjLdXKk3nqVy6pAoQ2IAdzKaC3PZqalbEzcrqg/edit?usp=sharing)
+[NESS2023](https://docs.google.com/presentation/d/1WpJl8nP0swUqbdUwYPvmXec1HPUf0hXI2juuXgZ0AU0/edit?usp=sharing)
 
 ## Overview
 
@@ -25,12 +27,12 @@ The interactive portion of the tutorial will be followed by a panel discussion a
 
 This tutorial has two components, slides and hands-on code examples.
 
-If you want to try out the hands-on materials you will need a working Python installation (see below).
+If you want to try out the hands-on materials you will need a working Python installation (see below) and MATLAB.
 
 The hands-on materials are organized as follows:
 
 - `data:` contains some example data files that can be used to explore the methods
-- `connectivity:` contains materials related to applying connectivity measures to neural data
+- `connectivity:` contains materials related to applying functional connectivity measures to neural data
 - `freq_domain:` contains materials related to using frequency-domain spectral decomposition
 - `time_domain:` contains materials using state space models to capture time-domain rhythms and their interactions.
 
@@ -48,10 +50,26 @@ To assist with getting an environment setup, we have provided an environment fil
 
 The above assumes you have the [conda](https://docs.conda.io/en/latest/) package manager, which can be downloaded as part of the [Anaconda distribution](https://www.anaconda.com/download).
 
+## Additional References
+
+We will also cover topics related to these other repositories:
+
+### PCIst
+[github.com/renzocom/PCIst](github.com/renzocom/PCIst)
+Comolatti R, Pigorini A, Casarotto S, Fecchio M, Faria G, Sarasso S, Rosanova M, Gosseries O, Boly M, Bodart O, Ledoux D, Brichant JF, Nobili L, Laureys S, Tononi G, Massimini M, Casali AG. A fast and general method to empirically estimate the complexity of brain responses to transcranial and intracranial stimulations. Brain Stimul. 2019 Sep-Oct;12(5):1280-1289. doi: 10.1016/j.brs.2019.05.013. Epub 2019 May 15. PMID: 31133480.
+
+### TAAC tool
+[www.github. com/iTCf/TAAC](www.github. com/iTCf/TAAC)
+Russo S, Sarasso S, Puglisi GE, Dal Palù D, Pigorini A, Casarotto S, D'Ambrosio S, Astolfi A, Massimini M, Rosanova M, Fecchio M. TAAC - TMS Adaptable Auditory Control: A universal tool to mask TMS clicks. J Neurosci Methods. 2022 Mar 15;370:109491. doi: 10.1016/j.jneumeth.2022.109491. Epub 2022 Jan 31. PMID: 35101524.
+
+### rt-TEP
+[https://github.com/iTCf/rt-TEP.git](https://github.com/iTCf/rt-TEP.git)
+Casarotto S, Fecchio M, Rosanova M, Varone G, D'Ambrosio S, Sarasso S, Pigorini A, Russo S, Comanducci A, Ilmoniemi RJ, Massimini M. The rt-TEP tool: real-time visualization of TMS-Evoked Potentials to maximize cortical activation and minimize artifacts. J Neurosci Methods. 2022 Mar 15;370:109486. doi: 10.1016/j.jneumeth.2022.109486. Epub 2022 Jan 21. PMID: 35074394.
+
 ## Contributors
 
 This Tutorial was created by:
-- David W. Zhou, PhD, Carney Institute for Brain Science, Brown University, Providence, RI, USA
+- [David W. Zhou](https://scholar.google.com/citations?user=aiiwYt0AAAAJ&hl=en), PhD, Carney Institute for Brain Science, Brown University, Providence, RI, USA
 - [Emily P. Stephen](http://emilystephen.com/), PhD, Dept. of Mathematics and Statistics, Boston University, Boston, MA, USA
 - [Thomas Donoghue](https://tomdonoghue.github.io/), PhD, Dept. of Biomedical Engineering, Columbia University, New York City, NY, USA
 - Matteo Fecchio, PhD, Center for Neurotechnology and Neurorecovery, Massachusetts General Hospital, Boston, MA, USA
