@@ -30,6 +30,7 @@ If you want to try out the hands-on materials you will need a working Python ins
 The hands-on materials are organized as follows:
 
 - `data:` contains some example data files that can be used to explore the methods
+- `complexity:` contains materials related to computing complexity measures on TMS-EEG data
 - `connectivity:` contains materials related to applying functional connectivity measures to neural data
 - `freq_domain:` contains materials related to using frequency-domain spectral decomposition
 - `time_domain:` contains materials using state space models to capture time-domain rhythms and their interactions.
@@ -49,34 +50,6 @@ To assist with getting an environment setup, we have provided an environment fil
 The above assumes you have the [conda](https://docs.conda.io/en/latest/) package manager, which can be downloaded as part of the [Anaconda distribution](https://www.anaconda.com/download).
 
 Some of the tutorial requires a version of MATLAB compatible with .mlx files.
-
-## Additional References
-
-We will also cover topics related to these other repositories:
-
-### PCIst
-[https://www.github.com/renzocom/PCIst](https://www.github.com/renzocom/PCIst)
-
-Comolatti R, Pigorini A, Casarotto S, Fecchio M, Faria G, Sarasso S, Rosanova M, Gosseries O, Boly M, Bodart O, Ledoux D, Brichant JF, Nobili L, Laureys S, Tononi G, Massimini M, Casali AG. A fast and general method to empirically estimate the complexity of brain responses to transcranial and intracranial stimulations. Brain Stimul. 2019 Sep-Oct;12(5):1280-1289. doi: 10.1016/j.brs.2019.05.013. Epub 2019 May 15. PMID: 31133480.
-
-### TAAC tool
-[https://www.github.com/iTCf/TAAC](https://www.github.com/iTCf/TAAC)
-
-Russo S, Sarasso S, Puglisi GE, Dal Palù D, Pigorini A, Casarotto S, D'Ambrosio S, Astolfi A, Massimini M, Rosanova M, Fecchio M. TAAC - TMS Adaptable Auditory Control: A universal tool to mask TMS clicks. J Neurosci Methods. 2022 Mar 15;370:109491. doi: 10.1016/j.jneumeth.2022.109491. Epub 2022 Jan 31. PMID: 35101524.
-
-### rt-TEP
-[https://www.github.com/iTCf/rt-TEP.git](https://www.github.com/iTCf/rt-TEP.git)
-
-Casarotto S, Fecchio M, Rosanova M, Varone G, D'Ambrosio S, Sarasso S, Pigorini A, Russo S, Comanducci A, Ilmoniemi RJ, Massimini M. The rt-TEP tool: real-time visualization of TMS-Evoked Potentials to maximize cortical activation and minimize artifacts. J Neurosci Methods. 2022 Mar 15;370:109486. doi: 10.1016/j.jneumeth.2022.109486. Epub 2022 Jan 21. PMID: 35074394.
-
-## Citing
-
-If you use any of the following code or methods contained in this repository in your work, please cite the following papers:
-
-### Global coherence
-Weiner VS, Zhou DW, Kahali P, Stephen EP, Peterfreund RA, Aglio LS, Szabo MD, Eskandar EN, Salazar-Gomez AF, Sampson AL, Cash SS. Propofol disrupts alpha dynamics in functionally distinct thalamocortical networks during loss of consciousness. Proceedings of the National Academy of Sciences. 2023 Mar 14;120(11):e2207831120.
-
-Please reach out to dwzhou@alum.mit.edu about citing the subspace methods.
 
 ## Contributors
 
