@@ -74,6 +74,14 @@ Russo S, Sarasso S, Puglisi GE, Dal Palù D, Pigorini A, Casarotto S, D'Ambrosio
 
 Casarotto S, Fecchio M, Rosanova M, Varone G, D'Ambrosio S, Sarasso S, Pigorini A, Russo S, Comanducci A, Ilmoniemi RJ, Massimini M. The rt-TEP tool: real-time visualization of TMS-Evoked Potentials to maximize cortical activation and minimize artifacts. J Neurosci Methods. 2022 Mar 15;370:109486. doi: 10.1016/j.jneumeth.2022.109486. Epub 2022 Jan 21. PMID: 35074394.
 
+## Citing
+
+If you use any of the following code or methods contained in this repository in your work, please cite the following papers:
+
+### Global coherence
+Weiner VS, Zhou DW, Kahali P, Stephen EP, Peterfreund RA, Aglio LS, Szabo MD, Eskandar EN, Salazar-Gomez AF, Sampson AL, Cash SS. Propofol disrupts alpha dynamics in functionally distinct thalamocortical networks during loss of consciousness. Proceedings of the National Academy of Sciences. 2023 Mar 14;120(11):e2207831120.
+Please reach out to dwzhou@mit.edu about citing the subspace methods.
+
 ## Contributors
 
 This Tutorial was created by:
