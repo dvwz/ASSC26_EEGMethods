@@ -4,7 +4,10 @@ This repository hosts materials for the "A practical guide to EEG analysis tools
 [ASSC26](https://theassc.org/assc-26/#tutorials).
 
 The slides for the course are below:
+- [Intro slides](https://docs.google.com/presentation/d/1X7yLfVzOVmVLF_CH6Phm_tp9EJp2D_Q4st-tBgOjoY8/edit?usp=sharing)
 - [Frequency Domain Methods slides](https://docs.google.com/presentation/d/1d4d2kr2bnahL5w-vobpCvjtse8oWVqTvrpKetU6lmtU/edit?usp=sharing)
+- [Time Domain Methods slides](https://docs.google.com/presentation/d/1YIcyEc4EqR-bFduKGpOqRdCwn_dcqkJQollDgE1--f4/edit?usp=sharing)
+- [Coherence Methods slides](https://docs.google.com/presentation/d/1NUFq5qjLdXKk3nqVy6pAoQ2IAdzKaC3PZqalbEzcrqg/edit?usp=sharing)
 
 ## Overview
 
@@ -14,7 +17,7 @@ In this tutorial, the presenters will provide a hands-on introduction to key met
 
 1. Frequency Domain Methods - including analyzing aperiodic neural activity: States of consciousness dramatically differ in overall signal power. This can be seen in the slope of the power spectrum, which reflects aperiodic (non-oscillatory) activity. Measuring aperiodic activity is important in order to detect band-limited oscillations, and as a feature of interest that relates to underlying spiking levels, and to the balance of excitation and inhibition. This tutorial will cover spectral parameterization (specparam, formerly fooof), a method for measuring aperiodic activity and neural oscillations.
 
-2. Time Domain Methods - including analyzing slow waves: EEG slow waves are a common feature of all unconscious states, and are thought to reflect up- and down-states in the spiking of cortical neurons. Recent research suggests that different levels of unconsciousness are differentiated by the entrainment of high-frequency activity to the slow wave in frontal vs posterior EEG. This tutorial will cover time-domain methods for decomposing the EEG signal into slow waves and high-frequency activity, and relating them to each other (Hilbert-based methods, State space oscillators, phase-amplitude coupling). [Time Domain Slides](https://docs.google.com/presentation/d/1YIcyEc4EqR-bFduKGpOqRdCwn_dcqkJQollDgE1--f4/edit?usp=sharing)
+2. Time Domain Methods - including analyzing slow waves: EEG slow waves are a common feature of all unconscious states, and are thought to reflect up- and down-states in the spiking of cortical neurons. Recent research suggests that different levels of unconsciousness are differentiated by the entrainment of high-frequency activity to the slow wave in frontal vs posterior EEG. This tutorial will cover time-domain methods for decomposing the EEG signal into slow waves and high-frequency activity, and relating them to each other (Hilbert-based methods, State space oscillators, phase-amplitude coupling). 
 
 3. Connectivity measures - including analyzing synchrony and global coherence: Measures of coupling between EEG recording sites often invoke the notion of synchrony as coherence or phase locking. These measures are sometimes used, in turn, to infer graph edges in network analyses. This tutorial will define and compare pairwise coherence, phase locking indices, and global coherence, as well as demonstrate some of their uses in the inference of functional connectivity.
 
