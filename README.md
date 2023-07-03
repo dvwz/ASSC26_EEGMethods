@@ -4,7 +4,7 @@ This repository hosts materials for the "A practical guide to EEG analysis tools
 [ASSC26](https://theassc.org/assc-26/#tutorials).
 
 The slides for the course are below:
-(links will be added after the session)
+- [Frequency Domain Methods slides](https://docs.google.com/presentation/d/1d4d2kr2bnahL5w-vobpCvjtse8oWVqTvrpKetU6lmtU/edit?usp=sharing)
 
 ## Overview
 
